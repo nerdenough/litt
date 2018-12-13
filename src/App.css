@@ -3,5 +3,5 @@
   height: 100vh;
   background: #111;
   display: grid;
-  grid-template-rows: 8rem 1fr;
+  grid-template-rows: 8rem 1fr 4rem;
 }

@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Tabs from './components/Tabs'
+import Footer from './components/Footer'
 import './App.css'
 
 class App extends Component {
@@ -7,6 +8,8 @@ class App extends Component {
     return (
       <div className="app">
         <Tabs />
+        <div />
+        <Footer />
       </div>
     )
   }

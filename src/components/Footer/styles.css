@@ -1,0 +1,11 @@
+.footer {
+  display: flex;
+  color: #444;
+  font-size: 1.4rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.heart {
+  color: rgb(110, 28, 55);
+}
