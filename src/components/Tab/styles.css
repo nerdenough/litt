@@ -11,3 +11,12 @@
 .tab:hover {
   background: #efefef;
 }
+
+.active {
+  background: #dedede;
+  color: #404040;
+}
+
+.active:hover {
+  background: #dedede;
+}
