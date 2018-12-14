@@ -7,9 +7,9 @@ import './styles.css'
 const Tabs: React.StatelessComponent<{}> = () => {
   return (
     <div className="tabs">
-      <Tab icon={faTools} />
-      <Tab icon={faBitcoin} />
-      <Tab icon={faGithub} />
+      <Tab icon={faTools} path="/" />
+      <Tab icon={faBitcoin} path="/bitcoin" />
+      <Tab icon={faGithub} path="/github" />
     </div>
   )
 }
