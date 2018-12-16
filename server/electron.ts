@@ -1,8 +1,10 @@
 import { app, BrowserWindow } from 'electron'
 import * as path from 'path'
+import GraphqlServer from './server'
 
 const isDev = process.env.NODE_ENV === 'production'
 let mainWindow: BrowserWindow
+const server = new GraphqlServer()
 
 const createWindow = () => {
   mainWindow = new BrowserWindow({ width: 800, height: 600 })
@@ -19,6 +21,7 @@ const createWindow = () => {
 }
 
 app.on('ready', () => {
+  server.start()
   createWindow()
 })
 
